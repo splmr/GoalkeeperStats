@@ -1,8 +1,8 @@
 """A python program to analyse goalkeeper data from Premier League and plot save% against clean sheets
 Though at first glance, a high save % may indicate a top class goalkeeper and thus a good defensive record
 The fact a goalkeeper has had to make those saves could also mean a poor back line and therefore less clean sheets
-We expect the top performing teams on both axis to be those near the top of the table
-We expect the poorest performing teams on both axis to be those near the bottom of the table
+I expect the top performing teams on both axis to be those near the top of the table
+I expect the poorest performing teams on both axis to be those near the bottom of the table
 However, I expect a jumble in the middle of the graph and therefore an unclear overall relationship
 
 """
