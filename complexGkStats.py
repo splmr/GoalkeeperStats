@@ -6,7 +6,7 @@ from adjustText import adjust_text
 graph.set(style="whitegrid")
 
 # load data through csv
-csvData = pd.read_csv('/Users/sam/Documents/GK_EPL_20_21.csv', sep=',', header=0)
+csvData = pd.read_csv('/Users//Documents/GK_EPL_20_21.csv', sep=',', header=0)
 
 # all the columns with values we care about
 columns_to_convert = [
@@ -49,6 +49,6 @@ adjust_text(texts, expand_text=(1.05, 1.2), expand_points=(1.2, 1.3), force_text
 # add key
 plot.legend(title='Club', bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=10)
 plot.tight_layout()
-plot.savefig('/Users/Sam/Documents/passesVsPass%.png', dpi=300, bbox_inches='tight')
+plot.savefig('/Users//Documents/passesVsPass%.png', dpi=300, bbox_inches='tight')
 print("Plot ran successfully")
 plot.show()
